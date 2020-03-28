@@ -1,0 +1,21 @@
+@media (max-width: 960px) {
+  .aside__menu {
+    display: none;
+  }
+}
+
+@media (min-width: 961px) {
+	.page {
+		display: flex;
+	}
+
+	.aside {
+		flex:0 0 320px;
+		margin-right: 40px;
+	}
+
+	.content {
+		flex: 1 1 auto;
+		order: 2;
+	}
+}
